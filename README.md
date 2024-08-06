@@ -1,22 +1,31 @@
-# PYSPARK-ONLINE-BANKING-ANALYSIS
-ONLINE BANKING ANALYSIS TECHNOLOGIES USED Spark SQL Spark HDFS Hive
+# Pyspark-Bank-Analysis
 
+## Online Banking Analysis
 
+### Technologies Used
+- Spark SQL
+- Spark HDFS
+- Hive
 
+### Overview
+This project marks our initial venture into Apache Spark. We focused on online banking analysis by leveraging various datasets from Kaggle, including loans, customer credit cards, and transactions. After downloading these datasets, we cleaned the data and utilized tools and technologies like Spark, HDFS, and Hive to execute various use cases.
 
+### Dataflow and Process
+1. **Data Ingestion**:
+    - Retrieved datasets from Kaggle.
+    - Stored datasets in cloud storage.
+    - Imported data from MySQL to Hive using Sqoop.
 
+2. **Data Processing**:
+    - Processed large datasets in Hive.
+    - Analyzed data using PySpark in Jupyter Notebook by implementing several use cases.
 
-ONLINE BANKING ANALYSIS
+### Roles and Responsibilities
+- **Team Collaboration**: Worked in a team of 6 members using Git/GitHub for version control.
+- **Data Collection**: Utilized historical data from Kaggle.com, focusing on online transactions, loans, and customer credit card datasets.
+- **Data Loading**: Implemented Spark Session to load data into DataFrames.
+- **Execution**: Used standalone cluster mode in the Spark environment to run Spark SQL queries.
 
-This is the first project where we worked on apache spark, In this project what we have done is that we downloaded the datasets from KAGGLE where everyone is aware of, we have downloaded loan, customers credit card and transactions datasets . After downloading the datsaets we have cleaned the data . Then after by using new tools and technologies like spark, HDFS, Hive and many more we have executed new use cases on the datasets, that we have downloaded from kaggle. As we all know apache spark is a framework that can quickly process the large datsets.
+---
 
-So now let me explain the dataflow of how we have done is, first primarly we have ingested the data that is , we retrieved the data and then downloaded the datasets from kaggle and then we stored this datasets in cloud storage and imported from MYSQL to hive by sqoop this is how we have ingested the data , second after ingesting the data we have processed the large datasets in hive and then we have analyzed the data using pyspark in jupyter notebook by implementing several use cases.
-
-TECHNOLOGIES USED:
-
-Spark SQL Spark HDFS Hive
-
-ROLES AND RESPONSIBLITIES:
-
-Collaborated in a team of 6 members using version control with Git/Github. Utilized the historical data from kaggle.com. Collected 3 datasets of online transactions, loan and customer credit card. Implemented Spark Session to load the data into Data Frames. Used standalone cluster mode in spark environment to run on Spark SQL queries.
-
+Feel free to explore the code, contribute, and raise issues if you encounter any. Happy coding!
